@@ -1,19 +1,19 @@
 # Arrays-Tut4
 Data Structures<br>
 Tutorial 4
-Question 1
+**Question 1**<br>
 Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?
 a) 5
 b) 4
 c) None
-d) Error
-Question 2
+d) Error<br>
+**Question 2**<br>
 Suppose listExample is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after listExample.pop(1)?
 a) [3, 4, 5, 20, 5, 25, 1, 3] 
 b) [1, 3, 3, 4, 5, 5, 20, 25] 
 c) [3, 5, 20, 5, 25, 1, 3] 
-d) [1, 3, 4, 5, 20, 5, 25] 
-Question 3
+d) [1, 3, 4, 5, 20, 5, 25] <br>
+**Question 3**<br>
 What will be the output of the following Python code?
 1. myList = [1, 5, 5, 5, 5, 1]
 2. max = myList[0]
@@ -28,7 +28,7 @@ a) 1
 b) 2
 c) 3
 d) 4
-Question 4
+**Question 4**<br>
 What will be the output of the following Python code?
 1. >>>list1 = [1, 3]
 2. >>>list2 = list1
@@ -37,7 +37,7 @@ What will be the output of the following Python code?
 a) [1, 3] 
 b) [4, 3] c) [1, 4] 
 d) [1, 3, 4] 
-Question 5
+**Question 5**<br>
 What will be the output of the following Python code?
 1. def f(values):
 2. values[0] = 44
@@ -49,7 +49,7 @@ a) [1, 44]
 b) [1, 2, 3, 44] 
 c) [44, 2, 3] 
 d) [1, 2, 3] 
-Question 6
+**Question 6**<br>
 What will be the output of the following Python code?
 1. numbers = [1, 2, 3, 4]
 2.
@@ -60,7 +60,7 @@ a) 4
 b) 5
 c) 8
 d) 12
-Question 7
+**Question 7**<br>
 What will be the output of the following Python code?
 1. veggies = ['carrot', 'broccoli', 'potato', 'asparagus']
 2. veggies.insert(veggies.index('broccoli'), 'celery')
@@ -69,7 +69,7 @@ a) [‘carrot’, ‘celery’, ‘broccoli’, ‘potato’, ‘asparagus’]
 b) [‘carrot’, ‘celery’, ‘potato’, ‘asparagus’] 
 c) [‘carrot’, ‘broccoli’, ‘celery’, ‘potato’, ‘asparagus’] 
 d) [‘celery’, ‘carrot’, ‘broccoli’, ‘potato’, ‘asparagus’] 
-Question 8
+**Question 8**<br>
 What will be the output of the following Python code?
 A = [[1, 2, 3], [4, 5, 6],
  [7, 8, 9]]
@@ -79,7 +79,7 @@ a) [7, 8, 9]
 b) [4, 5, 6] 
 c) [2, 5, 8] 
 d) [1, 4, 7] 
-Question 9
+**Question 9**<br>
 What will be the output of the following Python code?
 A = [[1, 2, 3],
  [4, 5, 6],
@@ -90,7 +90,7 @@ a) [1, 5, 9]
 b) [3, 5, 7] 
 c) [4, 5, 6] 
 d) [2, 5, 8] 
-Question 10
+**Question 10**<br>
 What will be the output of the following Python code?
 l=[[1, 2, 3], [4, 5, 6]]
 for i in range(len(l)):
@@ -100,20 +100,23 @@ print(l)
 a) No output
 b) Error
 c) [[1, 2, 3], [4, 5, 6]] 
-d) [[11, 12, 13], [14, 15, 16]] Question 11
+d) [[11, 12, 13], [14, 15, 16]]
+**Question 11**<br>
+<p>
 Write a Python function any_dups (A) to find whether a given array of integers contains any 
 duplicate element. Return true if any value appears at least twice in the said array and 
-return false if every element is distinct.
-Question 12
+return false if every element is distinct.</p>
+
+**Question 12**<br>
 Write a function print_high(A) which accepts an array of values and prints the biggest and 
 second biggest numbers. Use 3 lines of code in the function.
-Question 13 - this is a popular interview question
+**Question 13**<br> - this is a popular interview question
 An array, A, should store the numbers from 1 to n, BUT one number is missing. Write a 
 function find_missing(A) which accepts the array as a parameter and returns the missing 
 number. Hint: calculate the sum of all the number that are in the array. The sum of all 
 numbers from 1 – n can be calculated as n(n+1) / 2. EG the sum of the numbers 1, 2, 3, 4, 5 
 = 15 =(5(5+1)/2)
-Question 14
+**Question 14**<br>
 Write a function printMax (arr) which accepts an array as a parameter. The function prints the 
 maximum value in the array as well as the row and column element numbers where this max value 
 occurs. If there exist multiple such elements in different rows and columns, print the one with 
