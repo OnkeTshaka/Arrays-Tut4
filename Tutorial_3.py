@@ -1,4 +1,4 @@
-import numpy as np
+
 
 print("********************Question 1***************************************")
 listExample = ['h','e','l','l','o']
