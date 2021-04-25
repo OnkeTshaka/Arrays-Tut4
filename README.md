@@ -1,12 +1,14 @@
-# Arrays-Tut4
-Data Structures<br>
-Tutorial 4
+# Data Structures
+<br>
+Tutorial 4<br>
 **Question 1**<br>
+<p>
 Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?
 a) 5
 b) 4
 c) None
-d) Error<br>
+d) Error</p>
+<br>
 **Question 2**<br>
 Suppose listExample is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after listExample.pop(1)?
 a) [3, 4, 5, 20, 5, 25, 1, 3] 
@@ -28,6 +30,7 @@ a) 1
 b) 2
 c) 3
 d) 4
+<br>
 **Question 4**<br>
 What will be the output of the following Python code?
 1. >>>list1 = [1, 3]
