@@ -72,21 +72,37 @@ print(l)
 
 print("********************Question 11***************************************")
 # Find Duplicates
+# def  any_dups (A):
+#       if len(A) == len(set(A)):
+#           return False
+#       else:
+#           return True
+# print(any_dups(A))
+
+def any_dups(A):
+    lenghtArr = len(A)
+    lenghtSet = len(set(A))
+    if lenghtArr == lenghtSet:
+        return False
+    else:
+        return True
+
 A = [1,2,3,4,2,7,8,8,3]
-def  any_dups (A):
-      if len(A) == len(set(A)):
-          return False
-      else:
-          return True
 print(any_dups(A))
 print("********************Question 12***************************************")
 
 list1 = [12, 45, 2, 41, 31, 10, 8, 6, 4]
-def find_len(list1):
-    length = len(list1);list1.sort();
-    print("Largest element is:", list1[length - 1]),print("Second Largest element is:", list1[length - 2])
-find_len(list1)
+# def find_len(list1):
+#     length = len(list1);list1.sort();
+#     print("Largest element is:", list1[length - 1]),print("Second Largest element is:", list1[length - 2])
+# find_len(list1)
 
+def print_high(list1):
+    list1.sort()
+    print("Largest element is:", list1[len(list1) - 1])
+    print("Second Largest element is:", list1[len(list1) - 2])
+
+print(print_high(list1))
 print("********************Question 13***************************************")
 def find_missing(A):
     return [x for x in range(A[0], A[-1]+1)
@@ -94,40 +110,27 @@ def find_missing(A):
 A=[1,2,4,6,7,9,10]
 print(find_missing(A))
 
+
 print("********************Question 14***************************************")
 
 
-def maxelement(arr):
-    # get number of rows and columns
-    no_of_rows = len(arr)
-    no_of_column = len(arr[0])
-
-    for i in range(no_of_rows):
-
-        # Initialize max1 to 0 at beginning
-        # of finding max element of each row
-        max1 = 0
-        for j in range(no_of_column):
-            if arr[i][j] > max1:
-                max1 = arr[i][j]
-
-            print(max1)
-arr = [[3, 4, 1, 8],
-       [1, 4, 9, 11],
-       [76, 34, 21, 1],
-       [2, 1, 4, 5]]
-
-
-# Calling the function
-maxelement(arr)
-
-# Create matrix
-arr = np.array([[3, 4, 1, 8],
-       [1, 4, 9, 11],
-       [76, 34, 21, 1],
-       [2, 1, 4, 5]])
-
-# Return maximum element
-
-print(np.max(arr))
-print(np.min(arr))
+#
+def printMax(arr):
+    max= 0
+    maxRow = 0
+    maxCol = 0
+    for row in range(len(arr)):
+        for col in range(len(arr[row])):
+            if arr[row][col] >max:
+                max = arr[row][col]
+                maxRow =row
+                maxCol = col
+            print("Max: ",max)
+            print("Row at max array: ",(maxRow+1))
+            print("Column at max array: ", (maxCol+1))
+myArr =[[2,5,7],[4,8,9],[2,7,6]]
+for row in range(len(myArr)):
+    for col in range(len(myArr[row])):
+        print(myArr[row][col],end='')
+        print()
+printMax(myArr)
